@@ -40,6 +40,10 @@ public extension Decoded {
   static func missingKey<T>(name: String) -> Decoded<T> {
     return .Failure(.MissingKey(name))
   }
+
+  static func customError<T>(message: String) -> Decoded<T> {
+    return .Failure(.Custom(message))
+  }
 }
 
 extension Decoded: CustomStringConvertible {
