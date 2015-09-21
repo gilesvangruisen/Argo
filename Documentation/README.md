@@ -18,6 +18,7 @@ can be.
 
 ## Advanced Usage ##
 
+- [Decoding Enums](Decode-Enums.md)
 - Understanding the Decode operators // TODO
 - Interacting with the `JSON` enum // TODO
 - Writing your own custom parser // TODO
